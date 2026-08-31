@@ -1,12 +1,16 @@
 #:schema https://rlbot.org/schemas/agent.json
+
 [settings]
-name = "Scratch Example Bot"
+name = "Scratch Template Bot"
 # Should be [your name]/[your bots name]
-agent_id = "rlbot/scratch-example/atba_agent"
-# loadout_file = "loadout.toml"
-run_command = "rlbot-scratch-bridge.exe --sb3 project.sb3"
-run_command_linux = "./rlbot-scratch-bridge --sb3 project.sb3"
+agent_id = "rlbot/scratch-template/atba_agent"
+loadout_file = "loadout.toml"
+run_command = "rlbot-scratch-bridge.exe"
+run_command_linux = "./rlbot-scratch-bridge"
 hivemind = false
+
+[settings.environment]
+RLBOT_SCRATCH_SB3_PATH = "project.sb3"
 
 [details]
 description = "Scratch always-towards-ball-agent."
