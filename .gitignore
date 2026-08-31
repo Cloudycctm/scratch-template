@@ -1,2 +1,5 @@
 # Rust build artifacts
 target/
+
+# Bob generated
+bob_build/
