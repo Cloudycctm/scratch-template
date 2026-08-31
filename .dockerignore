@@ -1,0 +1,13 @@
+.git/
+.gitignore
+.gitmodules
+
+out/
+bob_build/
+_BIN/
+_BOB_OUT/
+
+**/target/
+
+*.Dockerfile
+README.md
