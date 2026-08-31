@@ -1,0 +1,4 @@
+[submodule "scratch-interface"]
+	path = scratch-interface
+	url = https://github.com/Cloudycctm/scratch-interface.git
+	branch = master
